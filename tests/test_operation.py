@@ -1,4 +1,4 @@
-import src.math_operations
+
 from src.math_operations import add, sub
 
 def test_add():

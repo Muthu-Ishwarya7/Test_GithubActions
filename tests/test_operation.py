@@ -1,4 +1,3 @@
-## Modular coding: math_operations.py
 from src.math_operations import add, sub
 
 def test_add():

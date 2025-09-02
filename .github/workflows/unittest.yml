@@ -20,13 +20,13 @@ jobs:
 
       # Step1: checkout the code from the repository
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Step2: set up python environment
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  ## specify the python version
+          python-version: '3.12'  ## specify the python version
 
       # Step3: install dependencies
       - name: Install dependencies
